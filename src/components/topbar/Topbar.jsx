@@ -9,7 +9,7 @@ function Topbar() {
     return (
         <div className='topbarContainer'>
             <div className="topLeft">
-                <div className="logo">Logo</div>
+                <div className="logo">Bridge</div>
             </div>
             <div className="topbarCenter">
                 <div className="searchbar">
