@@ -1,0 +1,7 @@
+.feed{
+    flex: 6;
+}
+.feedContainer{
+    margin: 1rem;
+    /* border: 1px solid black; */
+}

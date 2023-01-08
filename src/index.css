@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    padding: 0;
+    margin: 0;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* create a custom font name whatever name you like */
+@font-face {
+    font-family: "RobotoBlack";
+    src: url(../src/fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: "RobotoBold";
+    src: url(../src/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: "RobotoLight";
+    src: url(../src/fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: "RobotoMedium";
+    src: url(../src/fonts/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: "RobotoThin";
+    src: url(../src/fonts/Roboto-Thin.ttf);
+}
+@font-face {
+    font-family: "RobotoRegular";
+    src: url(../src/fonts/Roboto-Regular.ttf);
+}
+/* Now use that custom defined name  */
+.font-link{
+    font-family: "RobotoRegular";
 }

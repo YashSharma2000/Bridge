@@ -1,0 +1,106 @@
+.topbarContainer{
+    position: sticky;
+    top: 0;
+    display: grid;
+    grid-template-columns: 2fr 5fr 3fr;
+    text-align: center;
+    background-color: #1877f2;
+    padding: 1rem 0.2rem;
+    z-index: 2;
+}
+/* topbarleft  */
+.logo{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* topbar center  */
+.topbarCenter{
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+}
+.searchbar{
+    display: flex;
+    /* border: 1px solid black; */
+    width: 45rem;
+}
+.searchIcon{
+    /* border: 1px solid black; */
+    margin: 0 0.3rem;
+    cursor: pointer;
+}
+.searchInput{
+    border: none;
+    width: 100%;
+}
+.searchInput:focus{
+    outline: none;
+}
+/* topbar right  */
+.topbarRight{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.topbarLinks{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    padding:0 0.3rem;
+}
+.topbarLink{
+    cursor: pointer;
+    color: white;
+}
+.topbarIcons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.icon{
+    font-size: 1.4rem !important;
+}
+.topbarIconItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
+.topbarIconBadge{
+    position: absolute;
+    top: -0.5rem;
+    right: 0.5rem;
+    width: 15px;
+    height: 15px;
+    font-size: 0.8rem;
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+/* profile image  */
+.profileImageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profileImage{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileImage img{
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    cursor: pointer;
+}

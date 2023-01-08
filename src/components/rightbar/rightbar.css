@@ -1,0 +1,76 @@
+.rightbar{
+    flex: 2;
+    position: sticky;
+    top: 80px;
+    height: calc(100vh - 80px);
+    background-color: rgb(222, 222, 222);
+}
+.rightbarContainer{
+    margin: 0.7rem 1rem;
+    /* border: 1px solid black; */
+}
+.notifications{
+    margin: 0.7rem 0;
+    text-align: center;
+    height: 12rem;
+    /* border: 1px solid black; */
+    overflow-y: auto;
+}
+.notification{
+    padding: 0.3rem 0;
+}
+.birthdayReminder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid black; */
+    margin: 0.7rem 0;
+}
+.birthdayReminder img{
+    width: 64px;
+    height: 64px;
+    margin: 1rem 0;
+}
+
+.friendsOnline{
+    padding: 0 1rem;
+    margin: 0.7rem 0;
+    /* border: 1px solid black; */
+    overflow-y: auto;
+    height: 15rem;
+}
+.friendsOnline h3{
+    margin: 0.5rem 0;
+    text-align: center;
+}
+.onlineFriend{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.onlineFriend img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.imgContainer{
+    width: 48px;
+    height: 48px;
+    position: relative;
+    border-radius: 50%;
+}
+.imgContainer::after{
+    content: '';
+    display: block;
+    width: 0.6rem;
+    height: 0.6rem;
+    background-color: limegreen;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}

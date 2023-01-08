@@ -1,0 +1,68 @@
+.post{
+    box-shadow: 4px 4px 20px;
+    padding: 0.5rem;
+    margin: 2rem 0;
+}
+.postTop{
+    display: flex;
+    align-items: center;
+}
+.postTopLeft{
+    display: flex;
+    align-items: center;
+    flex:5;
+}
+.postTopLeft img{
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 1rem;
+}
+.postDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.postTime{
+    font-size: 0.7rem;
+}
+.postTopRight{
+    flex: 0.3;
+}
+.postCenter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0.5rem 4rem;
+    padding: 0 1rem;
+    /* border: 1px solid; */
+}
+.postImage{
+    max-width: 960px;
+    max-height: 540px;
+    /* object-fit: cover; is not good for this situation because it crops the extra part of the image while object-fit: contain; will help fitting it */
+    object-fit: contain;
+    margin: 1rem 0;
+}
+.postBottom{
+    display: flex;
+    align-items: center;
+    margin: 0 4rem;
+    padding: 0 1rem;
+}
+.postBottomLeft{
+    flex: 2;
+}
+.likeIcon{
+    margin: 0 0.4rem;
+    cursor: pointer;
+}
+.likeCounter{
+    font-size: 0.8rem;
+    margin: 0 0.4rem;
+}
+.commentCounter{
+    margin: 0 0.4rem;
+    cursor: pointer;
+}
